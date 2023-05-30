@@ -1,0 +1,35 @@
+{
+  "name": "create-gouan",
+  "version": "0.0.1",
+  "type": "module",
+  "license": "MIT",
+  "author": "gouan",
+  "bin": {
+    "create-gouan": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template-*",
+    "dist"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "dev": "unbuild && node index.js",
+    "build": "unbuild",
+    "publish": "unbuild",
+    "prepublish": "npm version patch"
+  },
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "devDependencies": {
+    "@types/cross-spawn": "^6.0.2",
+    "@types/minimist": "^1.2.2",
+    "@types/prompts": "^2.4.3",
+    "cross-spawn": "^7.0.3",
+    "kolorist": "^1.7.0",
+    "prompts": "^2.4.2",
+    "tsc": "^2.0.4",
+    "unbuild": "^1.1.2"
+  }
+}
