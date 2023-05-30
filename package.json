@@ -16,7 +16,7 @@
   "scripts": {
     "dev": "unbuild && node index.js",
     "build": "unbuild",
-    "publish": "unbuild && npm version patch && npm publish ."
+    "publish": "npm version patch && npm publish"
   },
   "engines": {
     "node": "^14.18.0 || >=16.0.0"
