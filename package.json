@@ -1,6 +1,6 @@
 {
   "name": "create-gouan",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "type": "module",
   "license": "MIT",
   "author": "gouan",
@@ -15,7 +15,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "unbuild && node index.js",
-    "build": "npm version patch && unbuild && npm publish"
+    "build": "unbuild",
+    "publish": "unbuild && npm version patch && npm publish ."
   },
   "engines": {
     "node": "^14.18.0 || >=16.0.0"
