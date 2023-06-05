@@ -9,7 +9,6 @@
   },
   "files": [
     "index.js",
-    "template-*",
     "dist"
   ],
   "main": "index.js",

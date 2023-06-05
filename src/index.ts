@@ -24,6 +24,7 @@ const init = async () => {
       choices: [
         { title: "Vue", value: "vue" },
         { title: "React", value: "react" },
+        { title: "Npm", value: "npm" },
       ],
       initial: 0,
     },
