@@ -25,6 +25,7 @@ const init = async () => {
         { title: "Vue", value: "vue" },
         { title: "React", value: "react" },
         { title: "Npm", value: "npm" },
+        { title: "Next", value: "nextjs" },
       ],
       initial: 0,
     },
